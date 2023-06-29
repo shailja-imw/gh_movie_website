@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/phoenix-frontend-shailja-goswami/',
+    baseURL: '/gh_movie_website/',
     head: {
       title: 'FlixTv',
       meta: [
