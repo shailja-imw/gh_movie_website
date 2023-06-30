@@ -41,6 +41,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v1
         with:
           target_branch: develop
-          build_dir: .output/public 
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN_GITHUB }}
